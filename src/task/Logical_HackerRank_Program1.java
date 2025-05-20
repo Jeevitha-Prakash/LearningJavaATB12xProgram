@@ -18,13 +18,20 @@ public class Logical_HackerRank_Program1 {
         int n3 = scanner.nextInt();
 
         if(n1 == n2 && n2== n3 && n3==n1)
+        {
             System.out.println("Triangle is equilateral");
+        }
 
         else if(n1==n2 || n2 == n3 || n3 ==n1)
+        {
             System.out.println("Triangle is isosceles");
+        }
 
         else
+        {
             System.out.println("Triangle is scalene");
+        }
+
 
     }
 
